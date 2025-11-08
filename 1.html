@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+      const now = new Date();
+      const hour = now.getHours();
+
+      if (hour < 12) {
+        alert("Good Morning");
+      } else if (hour <= 18) {
+        alert("Good Afternoon");
+      } else if(hour<=21){
+        alert("Good Evening");
+      }else{
+        alert("Good Night!");
+      }
+  </script>
+
+</head>
+  <body>
+      <header>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">SathiraSugeesvara</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+        </ul>
+      </div>
+    </div>
+   </nav>
+
+
+        <div id="div1">
+          <br><br>
+          <div id="div1">
+          <div style="text-align: center;">
+            <img src="Photo1.jpg" alt="My Photo" id="img1">
+            <h1 >Sathira Sugeesvara</h1>
+            <p>Designer | Coder |   problem Solver</p>
+          </div>
+        </div>
+      </header>
+
+
+
+      <section id="about" class="boxtype">
+        <div class="container text-align">
+        <h2>About me</h2></div>
+        <hr><br>
+        <p>Hello! I'm  <b>Sathira Sugeesvara</b>. I'm a student of University of Sri Jayewardhanapura, Department of computer Science.</p>
+      </section>
+
+
+
+      <section id="skills">
+        <div class="boxtype">
+        <div class="container text-align">
+        <h2>Skills</h2></div>
+        <hr><br>
+        <div class="container">
+          <div>
+            <span class="skill">C Programming</span>
+            <span class="skill">Html</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Bootstrap</span>
+            <span class="skill">Python</span>
+            <span class="skill">Git</span>
+            <span class="skill">MS Office</span>
+            
+          </div>
+          </div>
+          </div>
+      </section>
+
+
+
+      <section class="boxtype">
+        <section id="portfolio">
+<h2>Projects</h2>
+<hr><br>
+<table class="table table-hover">
+      <thead>
+<tr>
+<th>Project name</th>
+<th>Description</th>
+<th>Technology used</th>
+</tr></thead>
+      <tbody>
+<tr>
+<td>My Portfolio</td>
+<td>A simple web page </td>
+<td>HTML , CSS , Bootstrap</td>
+</tr>
+<tr>
+<td>Number Guessing Game</td>
+<td>A fun console based game</td>
+<td>C Language, Git Desktop</td>
+</tr>
+<tr>
+<td>Logistic Management System</td>
+<td>A system to enetr cities,distance and shoe summary sheet about delivery</td>
+<td>C Language, Git bash</td>
+</tr></tbody></table>
+      <br><br>
+     
+    <div class="container text-center">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="project-card">
+            <a href="https://github.com/Sathirasugeesvara/Number-guessing-game.git">
+            <img src="Pro1.jpg" alt="Project 1">
+            </a>
+            <h5>Number Guessing Game</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <a href="https://github.com/Sathirasugeesvara/Logistic-Management-System-.git">
+            <img src="Pro2.jpg" alt="Project 2">
+            </a>
+            <h5>Logistic Management System</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <a href="https://github.com/Sathirasugeesvara/My-Portfolio.git">
+            <img src="Pro3.jpg" alt="Project 3">
+            </a>
+            <h5>My Portfolio</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+      
+
+       
+  <section id="contact" class="boxtype">
+    <div class="container text-align">
+      <h2 class="section-title">Contact Me</h2></div>
+      <hr><br>
+      <div class="container text-center">
+      <form action="#" method="post">
+      <div class="mb-3">
+          <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Write your message here..."></textarea>
+        </div>
+        <button class="button">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+    <footer>
+      <p>© 2025 Sathira Sugeesvara. All Rights Reserved.</p>
+      <p>Follow me on : </p>
+        <div class="socialicons">
+          <a href="https://github.com/Sathirasugeesvara" target="_blank"><i class="bi bi-github"></i></a> |
+          <a href="https://www.linkedin.com/in/sathirasugeesvara" target="_blank"><i class="bi bi-linkedin"></i></a> |
+          <a href="https://www.facebook.com/sathira.sugeesvara" target="_blank"><i class="bi bi-facebook"></i></a> |
+          <a href="mailto:sathirasugeesvara@gmail.com"><i class="bi bi-envelope-fill"></i></a> | 
+          <a href="https://www.instagram.com/sathira_sugeesvara?igsh=MTk4M3lpOHEzM3cx" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
