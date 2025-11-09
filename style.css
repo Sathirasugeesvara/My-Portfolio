@@ -1,3 +1,7 @@
+body{
+        background-color: rgb(214, 231, 238); 
+    }
+    
 #img1{
     margin-top: 15px;
     width: 200px;
@@ -30,11 +34,14 @@ html {
   scroll-behavior: smooth;
 }
 
-header{
+.header {
   width: 100%;
+  background-color: #ffff;
+  padding: 20px 0; 
   text-align: center;
-  padding: 40px 20px;
 }
+
+
 
 
 .boxtype{
@@ -163,6 +170,6 @@ footer .socialicons {
 
 @media(max-width:600px){
     body{
-        background-color: rgb(214, 231, 238); 
+        background-color: #ffff; 
     }
 }
