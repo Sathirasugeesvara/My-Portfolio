@@ -1,9 +1,7 @@
-
-
 #img1{
     margin-top: 15px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%; 
     box-shadow: 0 0 10px rgb(0, 187, 255); 
 }
@@ -95,16 +93,19 @@ hr{
 }
 
 button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: rgb(0, 187, 255);
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
+    display: inline-block;
+  padding: 12px 25px;
+  border-radius: 50px;
+  margin: 10px;
+  border: 1px solid rgb(0, 187, 255);
+  transition: all 0.3s;
+  color: var(--text-light);
 }
 button:hover{
-    background-color: rgb(0, 187, 255);
+    background: var(--primary);
+  color: rgb(0, 187, 255);
+  box-shadow: 0 0 15px var(--primary);
+  transform: translateY(-5px);
 }
 
 .skill {
@@ -162,6 +163,6 @@ footer .socialicons {
 
 @media(max-width:600px){
     body{
-        background-color: rgb(214, 231, 238);
+        background-color: rgb(214, 231, 238); 
     }
 }
